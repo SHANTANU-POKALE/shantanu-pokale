@@ -271,7 +271,7 @@ h2 {
 
 /* Contact section styles */
 .contact-img {
-    background-image: url('Images/contact.avif');
+    background-image: url('contact.avif');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
