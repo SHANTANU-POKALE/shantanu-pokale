@@ -1,0 +1,332 @@
+.body{
+    background-color: #F9F7C9;
+}
+.container1{
+    background-color:#88AB8E;
+}
+.container{
+    background-color:#F9F7C9;
+}
+
+.logoh{
+        font-family: 'Mistral', sans-serif;
+    font-size: 3.5rem;
+    color: #F9F5F6;
+    text-decoration:none;  
+}
+.headerh{
+text-align: center;
+padding: 15px;
+}
+
+
+/* Header styles */
+.header {
+    background-color: #88AB8E; 
+    color: #304D30;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo b {
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+        
+    }
+}
+
+
+
+
+.logo{
+    font-family:Mistral;
+    font-size: 3.5rem;
+    color: #F9F5F6;
+    text-decoration: none;
+}
+
+.info{
+    font-family: 'Arial', sans-serif; 
+    font-size: 2rem;
+    line-height: 1.5; 
+    margin: 0px 98px;
+    padding: 0px 15px 0px 15px ;
+    color: black;
+
+   
+}
+.info a{
+    text-decoration: none; 
+    color:#D0D3D4;
+    font-size: 2rem;
+}
+
+/*about section*/
+.about{
+    font-size: 2rem;
+    color: #607274;
+}
+.para{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Skills section styles */
+#skills {
+    text-align: center;
+    font-size: 2rem ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #607274;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.skill {
+    display:flexbox;
+    margin: 0 10px;
+    text-align: start;
+    padding: 10px;
+}
+
+.skill img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+@media screen and (max-width: 760px) {
+    .skill {
+        display: block;
+        margin: 0 auto 20px;
+    }
+}
+
+
+.skill{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  }
+
+  .skill{
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#88AB8E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+/* Skills section styles */
+#skills {
+    text-align: center;
+    padding: 20px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin: 0 10px;
+}
+
+/* Media queries for responsiveness */
+@media (min-width: 576px) {
+    .skill {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        flex: 0 0 45%; 
+    }
+}
+
+
+/*portfolio*/
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color:#607274;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #607274;
+    font-size: 2rem;
+}
+
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.project-content {
+    padding: 20px;
+}
+
+
+
+
+
+/* Contact section styles */
+#contact {
+    text-align:left ;
+    padding: 20px;
+}
+
+
+
+
+
+/* Contact section styles */
+.contact-img {
+    background-image: url('Images/contact.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0; /* Adjust padding as needed */
+    text-align: center;
+    color: #607274; /* Set text color for better contrast */
+}
+
+#contact {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #607274;
+    color: #D0D3D4;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #304D30;
+}
+
+
+
+/* Footer styles */
+footer {
+    background-color: #88AB8E;
+    padding: 10px 20px;
+    text-align: center;
+    
+}
+
+
